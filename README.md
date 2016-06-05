@@ -42,8 +42,8 @@ num::num("40M")
 num::num("40M") - num::num("4K")
 [1] 39996000
 
-num::num("36,524,911") + num::num("4.681B")
-[1] 4717524911
+num::num("36,524K") + num::num("4.681B")
+[1] 4717524000
 ```
 
 We support `K` for 1000; `M` for 1,000,000 (million); `B` for 1,000,000,000 (billion); and `T` for 1,000,000,000,000 (trillion).
