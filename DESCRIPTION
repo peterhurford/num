@@ -3,10 +3,17 @@ Title: Specify large numbers in R using human language
 Version: 0.0.0.9000
 Authors@R: person("Peter", "Hurford", email = "peter@peterhurford.com", role = c("aut", "cre"))
 Description: See https://github.com/peterhurford/num/blob/master/README.md
-Depends: R (>= 3.0.1)
+Depends:
+    R (>= 3.0.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: checkr
-Suggests: testthat, magrittr, funtools, withr
+Imports:
+    checkr
+Suggests:
+    testthat,
+    magrittr,
+    funtools,
+    withr
 Remotes: peterhurford/checkr, peterhurford/funtools
+RoxygenNote: 5.0.1.9000
