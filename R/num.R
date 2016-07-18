@@ -20,6 +20,7 @@ num <- checkr::ensure(
     for (i in seq_along(abbrev)) {
       if (grepl(names(abbrev)[[i]], num)) {
         num <- gsub(names(abbrev)[[i]], paste("*", abbrev[[i]]), num)
+        break
       }
     }
     tryCatch({

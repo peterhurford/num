@@ -1,6 +1,6 @@
 Package: num
 Title: Specify large numbers in R using human language
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Peter", "Hurford", email = "peter@peterhurford.com", role = c("aut", "cre"))
 Description: See https://github.com/peterhurford/num/blob/master/README.md
 Depends:

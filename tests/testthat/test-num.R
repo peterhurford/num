@@ -44,6 +44,11 @@ describe("letter interpolation is parsable", {
   }
 })
 
+test_that("multiple letter interpolation is not parsable", {
+  expect_error(num::num("40M2K"))
+  expect_error(num::num("40M20K"))
+})
+
 describe("decimal separation is parsable with letters", {
   random_nums <- round(runif(100, 1, 100000), 3)
   for (i in seq_along(abbrev)) {
