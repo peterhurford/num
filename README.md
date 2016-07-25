@@ -1,4 +1,4 @@
-## Num
+## Num <a href="https://travis-ci.org/peterhurford/num"><img src="https://img.shields.io/travis/peterhurford/num.svg"></a> <a href="https://codecov.io/github/peterhurford/num"><img src="https://img.shields.io/codecov/c/github/peterhurford/num.svg"></a> <a href="https://github.com/peterhurford/num/tags"><img src="https://img.shields.io/github/tag/peterhurford/num.svg"></a>
 
 In R, writing a large number is kinda clunky:
 
