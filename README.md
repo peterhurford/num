@@ -33,17 +33,27 @@ or this:
 ...with Num, now we can!
 
 ```R
-num::num("40,000,000")
+num("40,000,000")
 [1] 4e+07
 
-num::num("40M")
+num("40M")
 [1] 4e+07
 
-num::num("40M") - num::num("4K")
+num("40M") - num("4K")
 [1] 39996000
 
-num::num("36,524K") + num::num("4.681B")
+num("36,524K") + num("4.681B")
 [1] 4717524000
 ```
 
 We support `K` for 1000; `M` for 1,000,000 (million); `B` for 1,000,000,000 (billion); and `T` for 1,000,000,000,000 (trillion).
+
+
+## Install
+
+Num is not yet available via CRAN. Instead, it needs to be installed via devtools:
+
+```R
+if (!require("devtools")) { install.packages("devtools"); library(devtools) }
+install_github("peterhurford/num")
+```
